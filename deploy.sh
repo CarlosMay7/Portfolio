@@ -5,7 +5,7 @@ sudo systemctl stop nginx
 pkill ngrok
 
 echo "Actualizando el repositorio..."
-git pull origin main
+sudo git pull origin main
 
 echo "Iniciando NGINX..."
 sudo systemctl start nginx
